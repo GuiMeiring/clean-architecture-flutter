@@ -14,8 +14,8 @@ class CarroEntity {
   }
 
   setLogica() {
-    if (qtdPortas > 2) {
-      valor * 2;
+    if (valor > 10000.00) {
+      valor = valor * 2;
     }
   }
 }
