@@ -28,7 +28,7 @@ class CarroDto extends CarroEntity {
     };
   }
 
-  CarroDto fromMap(Map map) {//fromJson - retornado de uma Api
+  static fromMap(Map map) {//fromJson - retornado de uma Api
     return CarroDto(
       placa: map['placa'],
       quatidadeDePortas: map['quantidadeDePortas'],
