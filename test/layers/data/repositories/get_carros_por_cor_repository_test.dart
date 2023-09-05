@@ -5,7 +5,7 @@ import 'package:clean_architecture/layers/domain/repositories/get_carros_por_cor
 import 'package:flutter_test/flutter_test.dart';
 
 main() {
-  GetCArroPorCorDataSource dataSource = GetCarrosPorCorDataSourceImp();
+  GetCarroPorCorDataSource dataSource = GetCarrosPorCorDataSourceImp();
   GetCarrosPorCorRepository repository = GetCarrosCorRepositoryImp(dataSource);
 
   test('Devolva um carro independente da cor', () {

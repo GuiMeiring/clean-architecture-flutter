@@ -8,16 +8,22 @@ class CarroController {
 
   CarroController(
       this._getCarrosPorCorUseCase, this._salvarCarroFavoriteUseCase) {
-    getCarrosPorCor('vermelho');//assim que o contrutor é criado ele vai executar o metodo de get
+    getCarrosPorCor(
+        'vermelho'); //assim que o construtor é criado ele vai executar o método de get
   }
 
   late CarroEntity carro;
 
-  getCarrosPorCor(String cor) {
-    carro = _getCarrosPorCorUseCase(cor);
+  // getCarrosPorCor(String cor) {
+  //   carro = _getCarrosPorCorUseCase(cor);
+  // }
+
+   getCarrosPorCor(String cor) {
+    var result = _getCarrosPorCorUseCase(cor);
+    result.fold((error) => print(error.toString()), (sucess) => carro = sucess);
   }
 
   salvarCarroFavorito(CarroEntity carroEntity) async {
-    var result = await _salvarCarroFavoriteUseCase(carroEntity);
+    await _salvarCarroFavoriteUseCase(carroEntity);
   }
 }

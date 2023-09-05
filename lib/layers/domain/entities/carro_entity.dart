@@ -7,7 +7,7 @@ class CarroEntity {
   CarroEntity(
       {required this.placa, required this.qtdPortas, required this.valor});
 
-  //regra de negocios da entidade, pertence só para ela
+  //regra de negócios da entidade, pertence só para ela
 
   double get valorReal {
     return valor * qtdPortas;

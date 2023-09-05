@@ -3,8 +3,8 @@ import 'package:clean_architecture/layers/presentations/ui/pages/carro_page.dart
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {
-  Inject.init();//inicia as inject - getIt
-  runApp(MaterialApp(
+  Inject.init(); //inicia as inject - getIt
+  runApp(const MaterialApp(
     home: CarroPage(),
   ));
 }
