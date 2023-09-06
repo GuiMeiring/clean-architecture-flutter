@@ -53,7 +53,7 @@ Possui pages, interfaces, widgets e components
 
 ## Packages
 
-### 1. GetIt
+### 1. GetIt (https://pub.dev/packages/get_it)
 
 Pasta Core - algo genérico, onde que toda a minha aplicação pode ler os conteúdos
 
@@ -66,7 +66,7 @@ Mesma instancia do objeto do inicio ao fim da aplicação - exemplo de uso:  car
 #### -> getIt.registerFactory
 Vai fabricar uma nova instância do objeto toda vez que recuperar o controller - exemplo de uso: lista de produto
 
-### 2. Dartz
+### 2. Dartz (https://pub.dev/packages/dartz)
 
 Oferece uma interface em que vai me obrigar a devolver sempre um resultado de sucesso e de falha, e vai sempre precisar tratar o sucesso e a falha - não precisa fazer trycatchs
 
