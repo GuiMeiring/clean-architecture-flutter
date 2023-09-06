@@ -87,8 +87,7 @@ Primeiro escreve os testes e depois escreve o código de produção - primeiro e
 # Observações:
 Essas anotação foram retiradas do Curso Arquitetura no Flutter Deivid Willyan | Flutter:
 
-https://youtu.be/LwOACmXcNQ8?list=PLRpTFz5_57cvCYRhHUui2Bis-5Ybh78TS
-
+https://youtu.be/LwOACmXcNQ8?si=8o_ycNIRACojn4_u
 
 
 
