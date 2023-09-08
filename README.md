@@ -1,7 +1,5 @@
-# Clean Architecture
-
-![image](https://github.com/GuiMeiring/clean_architecture/assets/101908636/3a281707-2c05-4749-9664-13be1b010ed5)
-![image](https://github.com/GuiMeiring/clean_architecture/assets/101908636/9afeab7b-c313-4c0a-936b-589ed5939fd4)
+<img src= "https://programmingideaswithjake.files.wordpress.com/2022/12/untitled.png"/>
+<img src="https://files.speakerdeck.com/presentations/0f0a5c2ac0e54122af3d28635121f104/slide_23.jpg"/>
 
 ## Clean Architecture - separa as aplicações em base na regra de negócios
 O topo da pirâmide não conhece as bases anteriores, porém que está embaixo conhece tudo que está em cima.
